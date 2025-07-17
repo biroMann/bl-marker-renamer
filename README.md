@@ -76,10 +76,4 @@ bpy.app.handlers.frame_change_pre.append(lambda scene: update_markers())
 # Register the timer
 bpy.app.timers.register(marker_movement_timer)
 ```
-## Contributing
 
-Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
